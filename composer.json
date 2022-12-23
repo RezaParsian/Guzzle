@@ -1,8 +1,21 @@
 {
     "name": "rp76/guzzle",
+    "version": "0.1",
+    "description": "This package will help you to get data easier than usual from guzzle.",
+    "type": "library",
+    "homepage": "https://github.com/RezaParsian/Guzzle",
+    "license": "MIT",
+    "keywords": [
+        "guzzle",
+        "guzzlehttp"
+    ],
+    "readme": "README.md",
     "require": {
-        "guzzlehttp/guzzle": "^7.5",
-        "psr/log": "^1.1"
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "psr/log": "^1.1",
+        "ext-json": "*",
+        "monolog/monolog": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -12,7 +25,9 @@
     "authors": [
         {
             "name": "RezaParsian",
-            "email": "rezaparsian76@gmail.com"
+            "email": "rezaparsian76@gmail.com",
+            "homepage": "https://rp76.ir"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
