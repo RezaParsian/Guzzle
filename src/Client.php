@@ -29,7 +29,7 @@ class Client extends \GuzzleHttp\Client
         parent::__construct($config);
 
         $this->logger = new Monolog('RP76', [
-            new StreamHandler(base_path() . '/storage/logs/guzzle/rp76-' . date('Y-m-d') . '.log', Monolog::WARNING)
+            new StreamHandler(explode('/vendor', __DIR__)[0] . '/storage/logs/guzzle/rp76-' . date('Y-m-d') . '.log', Monolog::WARNING)
         ]);
     }
 
