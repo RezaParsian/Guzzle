@@ -1,6 +1,6 @@
 {
     "name": "rp76/guzzle",
-    "version": "0.1",
+    "version": "0.2",
     "description": "This package will help you to get data easier than usual from guzzle.",
     "type": "library",
     "homepage": "https://github.com/RezaParsian/Guzzle",
@@ -15,7 +15,7 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "psr/log": ">=1.1",
         "ext-json": "*",
-        "monolog/monolog": "^2.0"
+        "monolog/monolog": "^3.0"
     },
     "autoload": {
         "psr-4": {
