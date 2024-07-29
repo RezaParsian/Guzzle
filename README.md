@@ -28,20 +28,21 @@ return $client->easySend($request); // get body of response
 
 ## Availbe methods
 
-| Method       | Short one |
-|--------------|-----------------|
-|`$client->easySend($request)->getBody()` | `$client->easySend($request)->body`|
-|`$client->easySend($request)->getJson()` | `$client->easySend($request)->json`|
-|`$client->easySend($request)->getObject()` | `$client->easySend($request)->object`|
-|`$client->easySend($request)->getHeaders()` | `$client->easySend($request)->headers`|
-|`$client->easySend($request)->getHeader()` | |
+| Method       | Short one                                    |
+|--------------|----------------------------------------------|
+|`$client->easySend($request)->getBody()` | `$client->easySend($request)->body`          |
+|`$client->easySend($request)->getJson()` | `$client->easySend($request)->json`          |
+|`$client->easySend($request)->getObject()` | `$client->easySend($request)->object`        |
+|`$client->easySend($request)->getHeaders()` | `$client->easySend($request)->headers`       |
+|`$client->easySend($request)->getHeader()` |                                              |
 |`$client->easySend($request)->getRequestHeaders()` | `$client->easySend($request)->requestHeaders` |
-|`$client->easySend($request)->getRequestHeader()` | |
-|`$client->easySend($request)->getStatusCode()` | `$client->easySend($request)->statusCode` |
-|`$client->easySend($request)->success()` |  |
+|`$client->easySend($request)->getRequestHeader()` |                                              |
+|`$client->easySend($request)->getStatusCode()` | `$client->easySend($request)->statusCode`    |
+|`$client->easySend($request)->success()` |                                              |
 |`$client->easySend($request)->getRequestParams()` | `$client->easySend($request)->requestParams` |
-|`$client->easySend($request)->getRequestUrl()` | `$client->easySend($request)->requestUrl` |
-|`$client->easySend($request)->getEffectiveUrl()` | `$client->easySend($request)->effectiveUrl` |
+|`$client->easySend($request)->getRequestUrl()` | `$client->easySend($request)->requestUrl`    |
+|`$client->easySend($request)->getEffectiveUrl()` | `$client->easySend($request)->effectiveUrl`  |
+|`$client->easySend($request)->getResponseTime()` | `$client->easySend($request)->ResponseTime`  |
 
 > **getEffectiveUrl**: return request url after _redirect_.
 

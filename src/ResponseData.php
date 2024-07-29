@@ -16,6 +16,7 @@ use GuzzleHttp\Psr7\{Response};
  * @property array requestHeader
  * @property array requestParams
  * @property int statusCode
+ * @property float responseTime
  */
 final class ResponseData
 {
@@ -100,5 +101,10 @@ final class ResponseData
     public function getEffectiveUrl(): string
     {
         return $this->client->stats->getEffectiveUri();
+    }
+
+    public function getResponseTime(): float
+    {
+        return $this->client->stats->getTransferTime();
     }
 }

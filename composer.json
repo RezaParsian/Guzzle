@@ -1,6 +1,6 @@
 {
     "name": "rp76/guzzle",
-    "version": "0.2",
+    "version": "0.3",
     "description": "This package will help you to get data easier than usual from guzzle.",
     "type": "library",
     "homepage": "https://github.com/RezaParsian/Guzzle",
